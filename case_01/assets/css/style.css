@@ -1,0 +1,75 @@
+.main {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.line{
+
+    position: absolute;
+    width: 1200px;
+    background: black;
+    height: 1px;
+    bottom: 240px;
+    left: 100px;
+
+
+}
+
+.main > h1 {
+
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 300px;
+    margin: auto;
+    font-size: 60px;
+    color: red;
+
+}
+.card{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 200px;
+
+}
+
+.card_main {
+    position: relative;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+
+
+}
+
+.man{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/man.gif");
+    background-repeat: no-repeat;
+}
+.home{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    background-image: url("../img/house.gif");
+    background-repeat: no-repeat;
+}
+.letter{
+    position: absolute;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+

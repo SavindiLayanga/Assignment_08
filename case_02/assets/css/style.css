@@ -1,0 +1,101 @@
+.main {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: slategray;
+}
+
+.text {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.text > h1 {
+    color: white;
+    font-family: "MV Boli";
+}
+
+.line1 {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 1px;
+    background: white;
+
+}
+
+.line2 {
+    position: absolute;
+    top: 430px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;
+    height: 1px;
+    background: white;
+
+}
+
+
+.middle_div {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.middle_box {
+    width: 150px;
+    height: 80px;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.middle_div > div:first-child {
+    position: absolute;
+    bottom: 110px;
+    background: blue;
+    left: -100px;
+}
+
+.middle_div > div:nth-child(2) {
+
+    background: yellow;
+}
+
+.middle_div > div:nth-child(3) {
+
+    background: lightpink;
+}
+
+.middle_div > div:nth-child(4) {
+
+    background: plum;
+}
+
+.middle_div > div:nth-child(5) {
+
+    background: red;
+}
+
+.middle_div > div:last-child {
+    position: absolute;
+    top: 110px;
+    right: -100px;
+    background: green;
+}
+
